@@ -1,2 +1,2 @@
 # ASF3UDA
-The complete code associated with this paper will be released after the publication of the manuscript.
+Comprehensive documentation of the code and detailed explanations of methodology will be made available upon publication of the accompanying paper.
