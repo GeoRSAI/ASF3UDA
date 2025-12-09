@@ -2,12 +2,12 @@ import torch
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-urban_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/LoveAD/Urban"
-rural_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/LoveAD/Rural"
-whu_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/WHU/AerialImage"
-inr_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/inria"
-pos_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/Potsdam"
-vah_dic = "/mnt/334a6b76-a5f7-4669-8ac2-daacd80b93ba/dataset/Vaihingen"
+urban_dic = "/mnt/dataset/LoveAD/Urban"
+rural_dic = "/mnt/dataset/LoveAD/Rural"
+whu_dic = "/mnt/dataset/WHU/AerialImage"
+inr_dic = "/mnt/dataset/inria"
+pos_dic = "/mnt/dataset/Potsdam"
+vah_dic = "/mnt/dataset/Vaihingen"
 
 WEIGHT_DECAY = 0.0005
 MOMENTUM = 0.9
